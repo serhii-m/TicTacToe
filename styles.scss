@@ -1,0 +1,66 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.player_indicator {
+    text-align: center;
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 32px;
+}
+
+.board {
+    display: grid;
+    position: relative;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    height: 500px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.board_tile {
+    border: 1px solid blue;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-size: 4rem;
+}
+
+.button_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.announce-winner {
+    text-align: center;
+    color: gold;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.announce-draw {
+    text-align: center;
+    color: grey;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.reset_btn {
+    height: 40px;
+    padding: 0 15px;
+    background-color: cadetblue;
+    color: white;
+    border: aliceblue;
+    border-radius: 1em;
+    margin-top: 50px;
+    font-size: 2em;
+
+    &:hover, &:active {
+        background-color: turquoise;
+        color: black;
+        border: 1px solid whitesmoke;
+    }
+}
